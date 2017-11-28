@@ -4,17 +4,43 @@
             "name": "clientFor",
             "access": "",
             "virtual": false,
-            "description": "",
-            "parameters": [],
-            "examples": []
+            "description": "Create client instance with type",
+            "parameters": [
+                {
+                    "name": "type",
+                    "type": "string",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "Object",
+                "description": "- V spot client"
+            }
         },
         {
             "name": "clientFor",
             "access": "",
             "virtual": false,
-            "description": "",
-            "parameters": [],
-            "examples": []
+            "description": "Create client instance with type",
+            "parameters": [
+                {
+                    "name": "type",
+                    "type": "string",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "Object",
+                "description": "- V spot client"
+            }
         }
     ]
 }
